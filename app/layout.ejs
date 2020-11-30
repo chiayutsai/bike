@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%- title %></title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <nav data-aos="fade-down"
+    class="navbar navbar-expand-md align-items-center justify-content-between border-bottom p-3 px-sm-8 py-sm-5 js-nav">
+    <h1 class=""><a class="logo" href="index.html">Fixiw</a></h1>
+
+
+    <div class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavbar">
+
+      <span></span>
+      <span></span>
+      <span></span>
+
+    </div>
+    <div class="collapse navbar-collapse flex-grow-0" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item ">
+          <a class="nav-link text-lg text-center py-2 mr-0 mr-md-8" href="">Product</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link text-lg text-center py-2 mr-0 mr-md-8" href="">Blog</a>
+        </li>
+
+        <li class="nav-item ">
+          <a class="nav-link text-lg text-center py-2" href="">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+
+  <%- contents %>
+  <footer class="container bg-light  d-flex justify-content-between align-items-center p-3 py-sm-5 px-sm-8 js-footer">
+    <ul class="d-none d-md-flex">
+      <li class="mr-8"><a class="py-2" href="">Product</a></li>
+      <li class="mr-8"><a class="py-2" href="">Blog</a></li>
+      <li class="mr-8"><a class="py-2" href="">Contact</a></li>
+    </ul>
+    <p class="text-sm text-secondary">© 2020 Fixie. All Rights Reserved.</p>
+    <a href="" class="logo d-none d-sm-block">Fixie</a>
+  </footer>
+  <script src="./assets/js/vendors.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+
+  <script src="./assets/js/bundle.js"></script>
+  <script src="./assets/js/bootstrap.js"></script>
+
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
