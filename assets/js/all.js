@@ -79,7 +79,7 @@ $(document).ready(function () {
   });
   gsap.to(".js-firstSection-titleone", {
     duration: 0.8,
-    x: -30,
+    x: -50,
     scrollTrigger: {
       trigger: ".js-firstSection-titleBox",
       scrub: true
@@ -87,7 +87,7 @@ $(document).ready(function () {
   });
   gsap.to(".js-firstSection-titletwo", {
     duration: 0.8,
-    x: 30,
+    x: 50,
     scrollTrigger: {
       trigger: ".js-firstSection-titleBox",
       scrub: true
@@ -131,7 +131,7 @@ $(document).ready(function () {
   });
   gsap.to(".js-secondSection-titleone", {
     duration: 0.8,
-    x: 30,
+    x: 50,
     scrollTrigger: {
       trigger: ".js-secondSection-titleBox",
       scrub: true
@@ -139,7 +139,7 @@ $(document).ready(function () {
   });
   gsap.to(".js-secondSection-titletwo", {
     duration: 0.8,
-    x: -30,
+    x: -50,
     scrollTrigger: {
       trigger: ".js-secondSection-titleBox",
       scrub: true
