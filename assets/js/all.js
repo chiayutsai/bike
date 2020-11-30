@@ -1,6 +1,10 @@
 "use strict";
 
 $(document).ready(function () {
+  $(window).on('load', function () {
+    //load函数
+    $(".loading").hide();
+  });
   $('.navbar-toggler').click(function () {
     $(this).toggleClass('open');
   });
