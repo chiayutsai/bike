@@ -1,18 +1,7 @@
 "use strict";
-
-$(document).ready(function () {
   $(window).on('load', function () {
-    //load函数
     $(".loading").hide();
-  });
-  $('.navbar-toggler').click(function () {
-    $(this).toggleClass('open');
-  });
-  set_height();
-  $(window).resize(function () {
-    set_height();
-  });
-  gsap.registerPlugin(ScrollTrigger);
+    gsap.registerPlugin(ScrollTrigger);
   gsap.from(".js-nav", {
     duration: 0.3,
     y: '-200px'
@@ -203,6 +192,17 @@ $(document).ready(function () {
     y: '300px',
     duration: 0.8
   }, '-=0.2');
+  });
+$(document).ready(function () {
+
+  $('.navbar-toggler').click(function () {
+    $(this).toggleClass('open');
+  });
+  set_height();
+  $(window).resize(function () {
+    set_height();
+  });
+  
 });
 
 function set_height() {
